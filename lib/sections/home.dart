@@ -1,7 +1,9 @@
 import "package:flutter/material.dart";
 import "package:spotify_clone/sections/likedsongs.dart";
+import "package:spotify_clone/sections/podcast/huberman%20show.dart";
 import "package:spotify_clone/sections/songs/charlieputh.dart";
 import "package:spotify_clone/sections/songs/edsheeran.dart";
+import "package:spotify_clone/sections/songs/theweekend.dart";
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -118,7 +120,7 @@ class HomePage extends StatelessWidget {
                                 child: Image(image: AssetImage("assets/ed sheeran.jpeg"),
                                   width: 55,
                                   height: 55,),
-                                borderRadius: BorderRadius.circular(5),
+                                borderRadius: BorderRadius.circular(40),
                               ),
                                 SizedBox(width: 5),
                                 Text("Ed Sheeran",
@@ -206,6 +208,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.w800,
                     fontSize: 20),),
                     SizedBox(width: 10,),
+                    SizedBox(height: 10,),
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
@@ -278,28 +281,189 @@ class HomePage extends StatelessWidget {
               ),
 
               SizedBox(height: 23,),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text("Based on your recent listening",
+                      style: TextStyle(color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                          fontSize: 20),),
+                      SizedBox(height: 10,),
+                      Row(
+                        children: [
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                  child: Image(image: AssetImage("assets/playlist.jpeg"),
+                                  width: 160,
+                                  height: 160,)),
+                              Text("Playlist1")
+                            ],),
+
+                          SizedBox(width: 10,),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                  borderRadius: BorderRadius.circular(8),
+                                  child: Image(image: AssetImage("assets/playlist.jpeg"),
+                                    width: 160,
+                                    height: 160,)),
+                              Text("Playlist1")
+                            ],),
+                          SizedBox(width: 10,),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                  borderRadius: BorderRadius.circular(8),
+                                  child: Image(image: AssetImage("assets/playlist.jpeg"),
+                                    width: 160,
+                                    height: 160,)),
+                              Text("Playlist1")
+                            ],),
+                          SizedBox(width: 10,),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                  borderRadius: BorderRadius.circular(8),
+                                  child: Image(image: AssetImage("assets/playlist.jpeg"),
+                                    width: 160,
+                                    height: 160,)),
+                              Text("Playlist1")
+                            ],),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              SizedBox(height: 23,),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+                padding: EdgeInsets.symmetric(horizontal: 20.0),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Based on your recent listening",
-                    style: TextStyle(color: Colors.white,
-                    fontWeight: FontWeight.w800,
-                        fontSize: 20),),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(8),
-                            child: Image(image: AssetImage("assets/playlist.jpeg"),
-                            width: 160,
-                            height: 160,))
+                        Text("Recents",
+                          style: TextStyle(color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 20),),
+                        Text("show all",
+                        style: TextStyle(color: Colors.white70,
+                        fontSize: 13),)
                       ],
+                    ),
+                    SizedBox(height: 10,),
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => LikedSongs()));
+                            },
+                            child: Column(
+                                children: [ClipRRect(
+                                  borderRadius: BorderRadius.circular(8),
+                                  child: Image(image: AssetImage("assets/liked songs.jpeg"),
+                                  width: 100,
+                                  height: 100,),),
+                                  Text("Liked Songs",
+                                  style: TextStyle(fontSize: 15),),
+                                  Text("7 songs played",
+                                  style: TextStyle(fontSize: 12,
+                                  color: Colors.grey),)
+                                ],),
+                          ),
+
+                          SizedBox(width: 10,),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => CharliePuth()));
+                            },
+                            child: Column(
+                              children: [ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child: Image(image: AssetImage("assets/charlieputh.jpg"),
+                                  width: 100,
+                                  height: 100,),),
+                                Text("Charlieputh",
+                                  style: TextStyle(fontSize: 15),),
+                                Text("Artist",
+                                  style: TextStyle(fontSize: 12,
+                                      color: Colors.grey),)
+                              ],),
+                          ),
+                          SizedBox(width: 10,),
+                          GestureDetector(
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => EdSheeran()));
+                            },
+                            child: Column(
+                              children: [ClipRRect(
+                                borderRadius: BorderRadius.circular(50),
+                                child: Image(image: AssetImage("assets/ed sheeran.jpeg"),
+                                  width: 100,
+                                  height: 100,),),
+                                Text("Ed Sheeran",
+                                  style: TextStyle(fontSize: 15),),
+                                Text("Artist",
+                                  style: TextStyle(fontSize: 12,
+                                      color: Colors.grey),)
+                              ],),
+                          ),
+                          SizedBox(width: 10,),
+                          GestureDetector(
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => TheWeekend()));
+                            },
+                            child: Column(
+                              children: [ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child: Image(image: AssetImage("assets/the weekend.jpeg"),
+                                  width: 100,
+                                  height: 100,),),
+                                Text("The Weekend",
+                                  style: TextStyle(fontSize: 15),),
+                                Text("Artist",
+                                  style: TextStyle(fontSize: 12,
+                                      color: Colors.grey),)
+                              ],),
+                          ),
+                          SizedBox(width: 10,),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => HubermanShow()));
+                            },
+                            child: Column(
+                              children: [ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child: Image(image: AssetImage("assets/huberman show.jpeg"),
+                                  width: 100,
+                                  height: 100,),),
+                                Text("Huberman Show",
+                                  style: TextStyle(fontSize: 15),),
+                                Text("Playlist.Spotify",
+                                  style: TextStyle(fontSize: 12,
+                                      color: Colors.grey),)
+                              ],),
+                          ),
+                          SizedBox(width: 10,),
+                        ],
+                      ),
                     )
                   ],
                 ),
-              )
+              ),
+
 
 
 
