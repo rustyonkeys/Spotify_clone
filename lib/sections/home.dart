@@ -196,6 +196,110 @@ class HomePage extends StatelessWidget {
                 ],),
               ),
               SizedBox(height: 23,),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("Today's biggest hits",
+                    style: TextStyle(fontWeight: FontWeight.w800,
+                    fontSize: 20),),
+                    SizedBox(width: 10,),
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child:Image(image: AssetImage("assets/playlist1.jpeg"),
+                                    width: 160,
+                                    height: 130,
+                                fit: BoxFit.cover,),
+                              ),
+                              Text("Playlist1"),
+                            ],),
+                          SizedBox(width: 10,),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child:Image(image: AssetImage("assets/playlist1.jpeg"),
+                                  width: 160,
+                                  height: 130,
+                                  fit: BoxFit.cover,),
+                              ),
+                              Text("Playlist2"),
+                            ],),
+                          SizedBox(width:10),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child:Image(image: AssetImage("assets/playlist1.jpeg"),
+                                  width: 160,
+                                  height: 130,
+                                  fit: BoxFit.cover,),
+                              ),
+                              Text("Playlist3"),
+                            ],),
+                          SizedBox(width:10),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child:Image(image: AssetImage("assets/playlist1.jpeg"),
+                                  width: 160,
+                                  height: 130,
+                                  fit: BoxFit.cover,),
+                              ),
+                              Text("Playlist4"),
+                            ],),
+                          SizedBox(width:10),
+                          Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(8),
+                                child:Image(image: AssetImage("assets/playlist1.jpeg"),
+                                  width: 160,
+                                  height: 130,
+                                  fit: BoxFit.cover,),
+                              ),
+                              Text("Playlist5"),
+                            ],),
+                      
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+
+              SizedBox(height: 23,),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text("Based on your recent listening",
+                    style: TextStyle(color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                        fontSize: 20),),
+                    Row(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(8),
+                            child: Image(image: AssetImage("assets/playlist.jpeg"),
+                            width: 160,
+                            height: 160,))
+                      ],
+                    )
+                  ],
+                ),
+              )
 
 
 
