@@ -61,19 +61,51 @@ class LikedSongs extends StatelessWidget {
                 ],
               ),
               SizedBox(height:10),
+            Row(
+              children: [
+                Container(child:
+                ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
+                  borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                SizedBox(width: 10,),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                            fontWeight: FontWeight.w400),),
+                        Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                            fontSize: 12),)
+                      ],
+                    ),
+                    SizedBox(width: 7,),
+                    Icon(Icons.more_vert_rounded)
+                  ],
+                ),
+              ],
+            ),
+              SizedBox(height:10),
               Row(
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                  borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -83,15 +115,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -101,15 +140,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -119,15 +165,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -137,15 +190,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -155,15 +215,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -173,15 +240,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -191,15 +265,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -209,15 +290,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -227,15 +315,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -245,15 +340,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -263,15 +365,22 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
+                  SizedBox(width: 10,),
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
+                              fontWeight: FontWeight.w400),),
+                          Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
+                              fontSize: 12),)
+                        ],
+                      ),
+                      SizedBox(width: 7,),
+                      Icon(Icons.more_vert_rounded)
                     ],
                   ),
                 ],
@@ -281,43 +390,7 @@ class LikedSongs extends StatelessWidget {
                 children: [
                   Container(child:
                   ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
-                    ],
-                  ),
-                ],
-              ),
-              SizedBox(height:10),
-              Row(
-                children: [
-                  Container(child:
-                  ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
-                  SizedBox(width: 14,),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("We Don't Talk Anymore(feat.Selena Gomez)", style: TextStyle(color:Colors.white,
-                          fontWeight: FontWeight.w400),),
-                      Text("Charlie Puth, Selena Gomez", style: TextStyle(color: Colors.grey,
-                          fontSize: 12),)
-                    ],
-                  ),
-                ],
-              ),
-              SizedBox(height:10),
-              Row(
-                children: [
-                  Container(child:
-                  ClipRRect(child: Image(image: AssetImage("assets/charlieputh.jpg")),
-                    borderRadius: BorderRadius.circular(8),),width: 50,height: 50,),
+                    borderRadius: BorderRadius.circular(3),),width: 50,height: 50,),
                   SizedBox(width: 14,),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
