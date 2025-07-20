@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/sections/home.dart';
-import 'package:spotify_clone/sections/likedsongs.dart';
+import 'package:spotify_clone/sections/search.dart';
 import 'package:spotify_clone/sections/songs/charlieputh.dart';
 import 'package:spotify_clone/sections/songs/theweekend.dart';
 
@@ -16,7 +16,7 @@ class _BottomNavState extends State<BottomNav> {
 
   List<Widget> widgets =[
     HomePage(),
-    LikedSongs(),
+    SearchSeaction(),
     CharliePuth(),
     TheWeekend()
   ];

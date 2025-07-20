@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:spotify_clone/sections/bottom.dart";
+import "package:spotify_clone/sections/drawer.dart";
 import "package:spotify_clone/sections/home.dart";
 
 void main() => runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark
       ),
-      home: BottomNav() ,
+      home: HamburgerSection(),
     );
   }
 }
